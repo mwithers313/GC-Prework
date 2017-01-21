@@ -28,23 +28,23 @@ public class New {
     int c2 = 0;
     
     System.out.println("PLEASE ENTER START DATE: ");
-    System.out.println("Year: ");
+    System.out.println("(YYYY)Year: ");
     a1 = scnr.nextInt();
     
-    System.out.println("Month: ");
+    System.out.println("(MM)Month: ");
     b1 = scnr.nextInt();
     
-    System.out.println("Day: ");
+    System.out.println("(DD)Day: ");
     c1 = scnr.nextInt();
     
     System.out.println("PLEASE ENTER FINISH DATE: ");
-    System.out.println("Year: ");
+    System.out.println("(YYYY)Year: ");
     a2 = scnr.nextInt();
     
-    System.out.println("Month: ");
+    System.out.println("(MM)Month: ");
     b2 = scnr.nextInt();
     
-    System.out.println("Day: ");
+    System.out.println("(DD)Day: ");
     c2 = scnr.nextInt();
     
     calendar1.set(a1,b1,c1);
