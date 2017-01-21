@@ -18,7 +18,7 @@ public class Cubes {
         int sum = 0;
         while (number > 0) {
             int t = number % 10;
-            System.out.println(t +  + (t * t * t));
+            System.out.println("Cube of " + t +  " is " (t * t * t));
             sum += t * t * t;
             counter = counter + 1;
             number = number / 10;
