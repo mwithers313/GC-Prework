@@ -1,4 +1,4 @@
-package lab1bonus3;
+ackage lab1bonus3;
 
 import java.util.Scanner;
 import java.util.Random;
@@ -56,7 +56,7 @@ public class Lab1Bonus3 {
 
                 userInput = scnr.next();
                 answer = userInput.charAt(0);
-            }//end or error loop
+            }//end of error loop
             
             if ((answer == 'Y') || (answer == 'y')) {
                 playAgain = true; // this will take us back to the start
